@@ -1,7 +1,7 @@
 import pandas as pd
 from ucimlrepo import fetch_ucirepo
 
-# Example dataset (you can change ID later)
+# Testing UCI ML Repo Fetching and viewing dataset
 student_performance = fetch_ucirepo(id=320) 
 
 X = student_performance.data.features
